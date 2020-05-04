@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <EditText
+            android:id="@+id/editText_name"
+            android:layout_width="match_parent"
+            android:layout_height="263dp"
+            android:layout_marginBottom="10dp"
+            android:background="#00FF00"
+            android:cursorVisible="true"
+            android:fontFamily="sans-serif-condensed"
+            android:gravity="top|left"
+            android:hint="TODO"
+            android:inputType="textMultiLine"
+            android:minLines="2"
+            android:padding="10dp"
+            android:scrollbars="vertical"
+            android:textColor="#ffffff" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@+id/editText_id">
+
+        </RelativeLayout>
+
+        <Button
+            android:id="@+id/button_add"
+            android:layout_width="207dp"
+            android:layout_height="66dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="0dp"
+            android:layout_marginTop="355dp"
+            android:layout_marginEnd="204dp"
+            android:layout_marginBottom="182dp"
+            android:background="@drawable/cab"
+            android:text="Add"
+            android:textColor="@android:color/white" />
+
+        <Button
+            android:id="@+id/button_viewAll"
+            android:layout_width="198dp"
+            android:layout_height="65dp"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginTop="457dp"
+            android:layout_marginEnd="213dp"
+            android:layout_marginBottom="81dp"
+            android:background="@drawable/cab"
+            android:text="View"
+            android:textColor="@android:color/white" />
+
+        <Button
+            android:id="@+id/button_update"
+            android:layout_width="193dp"
+            android:layout_height="66dp"
+            android:layout_alignParentStart="true"
+            android:paddingTop="10dp"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="214dp"
+            android:layout_marginTop="451dp"
+            android:layout_marginEnd="4dp"
+            android:layout_marginBottom="86dp"
+            android:background="@drawable/cab"
+            android:text="Alter"
+            android:textColor="@android:color/white" />
+
+
+        <Button
+            android:id="@+id/button_delete"
+            android:layout_width="196dp"
+            android:layout_height="70dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="211dp"
+            android:layout_marginTop="343dp"
+            android:layout_marginEnd="4dp"
+            android:layout_marginBottom="191dp"
+            android:background="@drawable/cab"
+            android:text="Delete"
+            android:textColor="@android:color/white" />
+
+        <EditText
+            android:id="@+id/editText_id"
+            android:layout_width="wrap_content"
+            android:layout_height="62dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="136dp"
+            android:layout_marginTop="268dp"
+            android:layout_marginEnd="129dp"
+            android:layout_marginBottom="272dp"
+            android:background="@drawable/edit"
+            android:gravity="center"
+            android:hint="NUMBER"
+            android:textColor="@android:color/background_dark" />
+
+        <TextView
+            android:id="@+id/textViewac"
+            android:layout_width="fill_parent"
+            android:layout_height="51dp"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginTop="534dp"
+            android:layout_marginEnd="0dp"
+            android:layout_marginBottom="17dp"
+            android:gravity="center"
+            android:text="HELP"
+            android:textSize="20sp" />
+    </RelativeLayout>
+
+</LinearLayout>
